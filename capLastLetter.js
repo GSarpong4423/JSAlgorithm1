@@ -1,15 +1,15 @@
-//  function titleCase(str) {
-//     var words = str.toLowerCase().split(' ');
-//     //  var lastLetter = letters[letters.length - 1].toUpperCase();
+ function titleCase(str) {
+    var words = str.toLowerCase().split(' ');
+    //  var lastLetter = letters[letters.length - 1].toUpperCase();
      
-//         for (var i = 0; i < words.length; i++) {
-//              var letters = words[i]; 
-//              letters.length ;
-//              console.log(letters.length);
-//          }
-//           return words.join(" ");
-//       }
-//     console.log(titleCase("I'm a little tea pot"));
+        for (var i = 0; i < words.length; i++) {
+             var letters = words[i]; 
+             letters.length ;
+             console.log(letters.length);
+         }
+          return words.join(" ");
+      }
+    console.log(titleCase("I'm a little tea pot"));
   
 
 //MY CODE
