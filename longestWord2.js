@@ -1,15 +1,13 @@
-function longestWord2 (str) {
-    let letters = str.split(' ');
-    let maximumWord = 0;
+function wordLength (str) {
+    let eachWord = str.split(' ');
+    let longestWord = 0;
 
-    for (var i = 0; i < letters.length; i ++){
-        if (letters[i].length > maximumWord){
-            maximumWord = letters[i].length;
-            
+    for (var i =0; i < eachWord.length; i++) {
+        if (eachWord[i].length > longestWord){
+            longestWord = eachWord[i].length;
         }
-
     }
-    console.log (maximumWord);
+console.log(longestWord);
 }
 
-longestWord2 ("Mary had a little lamb");
+wordLength ("I love my family and kids I wish we had a turquoise dog with feathered ears who sings labamba in the shower");
